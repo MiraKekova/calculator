@@ -1,4 +1,4 @@
-/*let sum = '+';
+let sum = '+';
 let multi = '*';
 let sub = '-';
 let divis = '/';
@@ -27,4 +27,4 @@ function calc(operator, a, b) {
 
 
 console.log(calc(multi, 4, 9));
-*/
+
