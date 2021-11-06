@@ -1,4 +1,4 @@
-let sum = '+';
+/*let sum = '+';
 let multi = '*';
 let sub = '-';
 let divis = '/';
@@ -8,16 +8,23 @@ function calc(operator, a, b) {
     const notValid = (!Number(a) || !Number(b) || operator === '');
     if (notValid) {
         return 'Error';
-    } else if (operator === sum) {
-        return a + b;
-    } else if (operator === multi) {
-        return a * b;
-    } else if (operator === sub) {
-        return a - b;
-    } else if (operator === divis) {
-        return a / b;
-    } else  (unknOper) 
-        return 'unknown operator';
+    };
+    switch (operator) {
+        case sum:
+            return a + b;
+        case multi:
+            return a * b;
+        case sub:
+            return a - b;
+        case divis:
+            return a / b;
     }
+    if (unknOper)
+        return 'unknown operator';
+}
+
+
+
 
 console.log(calc(multi, 4, 9));
+*/
